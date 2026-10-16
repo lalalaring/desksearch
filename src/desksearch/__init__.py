@@ -16,7 +16,7 @@ Quick start::
     info = ds.info()
     print(info)  # {"documents": 1234, "chunks": 45678, ...}
 """
-__version__ = "0.6.5"
+__version__ = "0.7.0"
 
 # Must run before any huggingface_hub / httpx client is constructed.
 from desksearch.utils.env import sanitize_no_proxy as _sanitize_no_proxy
